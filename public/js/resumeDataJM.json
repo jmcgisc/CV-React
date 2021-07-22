@@ -1,0 +1,103 @@
+{
+    "main": {
+      "name": "José Manuel Carreiro Galicia",
+      "occupation": "CEO of BuildingBridges && BuceApp",
+      "description": "En busca de nuevos retos donde pueda desarrollar mis habilidades como programador",
+      "image": "profilepic.jpg",
+      "bio": "Mi nombre es José Manuel, como informatico siempre estoy en constante actualización de mis conocimientos en software y otras habilidades, he estado trabajando también por mas de 10 años en el campo de la consultoría, tengo el certificado de Scrum Master y un máster en M.B.A. por la parte tecnológica actualmente me encuentro terminando un bootcamp de programación mobile [IOS, Android, ReactNative & Flutter. Por mi parte estoy trabajando en el desarrollo de dos empresas BuildingBridges & BuceApp]",
+      "contactmessage": "Contacta conmigo!",
+      "email": "jose.manuel.carreiro.galicia@gmail.com",
+      "phone ":  "+52 5575630576",
+      "address": { 
+        "country": "México",
+        "city": "Ciudad de México"
+      }, 
+      "social": [ 
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/manuelcarreirogalicia/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/jmcgisc",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "Perfil Informatico",
+      "education": [
+        {
+          "colege": "UNITEC",
+          "degree": "Ingeniería en sistemas computacionales, M.B.A., Full-Stack-Mobile-Bootcamp-XI, SCRUMstudy - Accreditation Body for Scrum and Agilele", 
+          "Master": "UNITEC",
+        }
+      ],
+      "work": [
+        {
+          "company": "PAPA",
+          "title": "Founder and CEO",
+          "years": "May 2019 - Present",
+          "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        }
+      ],
+      "skills": [
+        {
+          "name": "ReactJs",
+          "level": "100%"
+        },
+        {
+          "name": "Python",
+          "level": "85%"
+        },
+        {
+          "name": "Git",
+          "level": "70%"
+        },
+        {
+          "name": "JavaScript",
+          "level": "99%"
+        },
+        {
+          "name": "Web Development",
+          "level": "95%"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Snapchat Clone (React JS)",
+          "category": "",
+          "image": "snapchat.jpg",
+          "url": "https://youtu.be/1kGISk5ft2w"
+        },
+        {
+          "title": "Gmail Clone (React JS)",
+          "category": "",
+          "image": "gmail.jpg",
+          "url": "https://youtu.be/b7nrXjS6Dqs"
+        },
+        {
+          "title": "LinkedIn Clone (React JS)",
+          "category": "",
+          "image": "linkedin.jpg",
+          "url": "https://youtu.be/QaYts9sPmcY"
+        }
+      ]
+    },
+    "testimonials": {
+      "testimonials": [
+        {
+          "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+          "user": "Jorge Fouto"
+        },
+        {
+          "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+          "user": "Adam Curtis"
+        }
+      ]
+    }
+  }
+  

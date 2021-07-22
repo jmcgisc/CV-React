@@ -436,12 +436,18 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    overflow: hidden;
    position: relative;
-
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out; 
+   border-radius: 15px;
+   padding: 1.5rem;
+   background: #fff;
+   position: relative;
+   display: flex;
+   transition: .4s ease-out;
+   box-shadow: 0 7px 10px rgba(0,0,0,.5);
 }
 .portfolio-item .item-wrap a {
    display: block;

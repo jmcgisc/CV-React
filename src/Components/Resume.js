@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills";
 
 const Resume = ({ data }) => {
   if (data) {
@@ -24,6 +25,7 @@ const Resume = ({ data }) => {
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
           <p>{work.description}</p>
+          <p>{work.url}</p>
         </div>
       );
     });
@@ -43,7 +45,7 @@ const Resume = ({ data }) => {
       <div className="row education">
         <div className="three columns header-col">
           <h1>
-            <span>Education</span>
+            <span>Educación</span>
           </h1>
         </div>
 
@@ -57,7 +59,7 @@ const Resume = ({ data }) => {
       <div className="row work">
         <div className="three columns header-col">
           <h1>
-            <span>Work</span>
+            <span>Experiencia</span>
           </h1>
         </div>
 
@@ -67,7 +69,7 @@ const Resume = ({ data }) => {
       <div className="row skill">
         <div className="three columns header-col">
           <h1>
-            <span>Skills</span>
+            <span>Habilidades</span>
           </h1>
         </div>
 
@@ -78,6 +80,9 @@ const Resume = ({ data }) => {
             <ul className="skills">{skills}</ul>
           </div>
         </div>
+      </div>
+      <div>
+          <Skills/>
       </div>
     </section>
   );

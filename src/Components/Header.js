@@ -1,5 +1,32 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import { AppBar, makeStyles, Toolbar } from '@material-ui/core';
+import {  InfoTwoToneIcon } from '@material-ui/icons/InfoTwoTone';
+import { EmojiObjectsTwoToneIcon } from "@material-ui/icons/EmojiObjectsTwoTone";
+import { BuildTwoToneIcon } from "@material-ui/icons/BuildTwoTone";
+import { ContactMailTwoToneIcon } from "@material-ui/icons/ContactMailTwoTone";
+
+const links = [{
+  id: "about",
+  text: "acerca de mi",
+  icon:  < InfoTwoToneIcon />
+  }, 
+  {
+  id: "skills",
+  text: "Tecnologías",
+  icon:  < EmojiObjectsTwoToneIcon />
+  }, 
+  {
+  id: "work",
+  text: "ExperienciasTecnológicas",
+  icon:  < BuildTwoToneIcon />
+  }, 
+  {
+  id: " contact",
+  text: "Contáctame",
+  icon:  < ContactMailTwoToneIcon />
+  }
+]
 
 const Header = ({ data }) => {
   if (data) {
@@ -31,32 +58,32 @@ const Header = ({ data }) => {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
-              Home
+              INICIO
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#about">
-              About
+              Acerca de
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#resume">
-              Resume
+              C.V.
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Works
+              Trabajos
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#testimonials">
-              Testimonials
+              Motivación 
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#contact">
-              Contact
+              Contacto
             </a>
           </li>
         </ul>
@@ -65,10 +92,10 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={0.5}>{name ? `Soy ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            Ubicado en {city}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

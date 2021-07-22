@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 
 const Portfolio = ({ data }) => {
   if (data) {
@@ -29,7 +29,7 @@ const Portfolio = ({ data }) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Algunas muestras de mi trabajo.</h1>
 
           <div
             id="portfolio-wrapper"
